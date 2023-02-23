@@ -1,2 +1,2 @@
 # js-note
-Note for JavaScript learning
+Note for JavaScript learning.
