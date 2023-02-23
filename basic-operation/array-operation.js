@@ -27,4 +27,14 @@ console.log(numbers);
 numbers.splice(1, 2);     //1:start index; 2: number of element
 console.log(numbers);
 
-//splice() method 
+//splice() method
+//Adding elements with splice
+numbers.push(2);
+numbers.splice(1, 0, 5, 6, 7, 8); // [1, 2, 5, 6, 3, 4]
+console.log(numbers);
+//Removing elements with splice
+numbers.splice(2, 1);
+console.log(numbers);
+//Replacing elements with splice
+numbers.splice(1, 2, 6);
+console.log(numbers);
